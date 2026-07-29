@@ -44,7 +44,7 @@ DEFAULT_BATCH = 100   # URLs to process in auto mode
 START_ITEM = max(1, _START_RAW_INT) if not AUTO_MODE else 1
 END_ITEM   = _END_RAW_INT           if not AUTO_MODE else DEFAULT_BATCH
 
-MAX_MB       = 5
+MAX_MB       = 10
 MAX_BYTES    = MAX_MB * 1024 * 1024          # 5 242 880 bytes
 
 GITHUB_JSON  = "https://raw.githubusercontent.com/srtfile/hianime.ad/refs/heads/main/data/anime_urls.json"
